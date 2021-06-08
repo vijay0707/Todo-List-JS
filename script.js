@@ -164,9 +164,16 @@ function removeLocalTodos(todo){
 function changeBG(){
     const changeBody = document.querySelector('body');
     const changeToggle = document.querySelector('.change');
+    const changeButton = document.querySelector('.todo-button');
+    const changeFilter = document.querySelector('.select');
+    const changeFilter1 = document.querySelector('select');
     changeBody.classList.toggle("change-bg");
     changeToggle.classList.toggle("change1");
     changeToggle.classList.toggle("change-icon");
+    changeButton.classList.toggle("change-button");
+    changeFilter.classList.toggle("change-filter");
+    changeFilter1.classList.toggle("change-filter1");
+
 }
 
 
